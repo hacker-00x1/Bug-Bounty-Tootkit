@@ -1,0 +1,55 @@
+Bug Bounty Tool Kit
+Copyright (c) 2025 Hacker00X1. All rights reserved.
+
+                        HACKER00X1 LICENSE v1.0
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, study, and modify the Software for PERSONAL, EDUCATIONAL, and AUTHORIZED
+SECURITY RESEARCH purposes only, subject to the following conditions:
+
+1. AUTHORIZED USE ONLY
+   You may only run this Software against systems you own outright or have
+   received explicit written authorization to test. Using this Software on
+   systems without permission is illegal and strictly prohibited.
+
+2. NO WARRANTY
+   The Software is provided "as is", without warranty of any kind, express or
+   implied. The author(s) shall not be liable for any damages, legal action,
+   or consequences arising from the use or misuse of this Software.
+
+3. ATTRIBUTION
+   All copies or substantial portions of the Software must retain this license
+   notice, the original author credit ("by Hacker00X1"), and the banner header
+   present in each source file.
+
+4. NON-COMMERCIAL
+   Commercial sale, resale, or distribution of the Software or its derivatives
+   for monetary gain is prohibited without the express written consent of the
+   original author (Hacker00X1).
+
+5. NO MALICIOUS USE
+   This Software may not be used to conduct attacks, gain unauthorized access,
+   exfiltrate data, cause service disruption, or carry out any activity that
+   violates applicable local, national, or international law.
+
+6. REDISTRIBUTION
+   Redistribution of the Software in source or binary form is permitted
+   provided that:
+     (a) This license is included in full.
+     (b) The original author attribution is preserved.
+     (c) Any modifications are clearly documented.
+
+7. CONTRIBUTIONS
+   By submitting contributions to this Software, you agree that your
+   contributions will be licensed under the same terms as this license.
+
+THE AUTHOR (HACKER00X1) BEARS NO RESPONSIBILITY FOR ANY ILLEGAL OR UNETHICAL
+USE OF THIS TOOL. YOU ARE SOLELY RESPONSIBLE FOR YOUR ACTIONS.
+
+───────────────────────────────────────────────────────────────────────────────
+  Author  : Hacker00X1
+  Project : Bug Bounty Tool Kit
+  Year    : 2025
+  Contact : github.com/Hacker00X1
+───────────────────────────────────────────────────────────────────────────────

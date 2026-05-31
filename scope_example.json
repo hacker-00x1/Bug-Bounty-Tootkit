@@ -1,0 +1,14 @@
+{
+    "program": "Example Bug Bounty Program",
+    "in_scope": [
+        "*.example.com",
+        "api.example.com",
+        "https://app.example.com"
+    ],
+    "out_of_scope": [
+        "blog.example.com",
+        "status.example.com",
+        "cdn.example.com",
+        "*.s3.amazonaws.com"
+    ]
+}

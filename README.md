@@ -1,4 +1,4 @@
-# Hacker00X1 — Bug Bounty Tool Kit
+# Hacker00X1 — Bug Bounty RoolKit
 
 Automated reconnaissance and vulnerability scanner for bug bounty hunters. Performs full recon, port scanning, crawling, and 20+ vulnerability checks in a parallel 4-phase pipeline, then generates HTML, JSON, OWASP, and HackerOne-ready markdown reports.
 
